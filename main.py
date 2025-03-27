@@ -44,4 +44,13 @@
 # git commit-tree
 # git hash-object
 
+
+
 # You need to assign a name and email to your git config so the author of gits can be tracked
+
+# To check they are set:
+# git config --get user.name
+# git config --get user.email
+
+
+
