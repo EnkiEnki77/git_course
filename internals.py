@@ -34,3 +34,11 @@
 # in the form of tree and blob objects, you can then peep into each of their contents by cat-filing into
 # them.
 
+
+
+# Git stores an entire snapshot of files on a per commit level, not just the changes.
+
+# For optimization git compresses and packs files to store them more efficiently
+# Git deduplicates files that are the same across different commits, if a file didnt change git only
+# stores it once.
+
