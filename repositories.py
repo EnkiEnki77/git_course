@@ -26,3 +26,22 @@
 
 # arguments with <> are required, arguments with [] are optional.
 
+
+# After staging a file you can commit it
+# A commit is a snapshot of the repo at a given point in time. It's a way to save the state of the repo,
+# and is how git keeps track of changes to the project.
+# A commit comes with a message that describes changes made in the commit.
+# The command is:
+# git commit -m "commit message"
+
+
+# A git repo is a potentially very long list of commits, where each commit represents the full state of
+# the repo at a given point in time.
+
+# git log shows a history of the commits in the repo, you can see who made a commit, when it was made, and
+# what was changed.
+
+# Each commit has a commit hash that uniquely identifies it. You can refer to any commit in git by the
+# first 7 characters of it's hash
+
+
