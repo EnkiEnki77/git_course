@@ -7,3 +7,5 @@
 # Or view it directly: cat .git/config (local) ~/.gitconfig (global)
 
 # To get a single value from the config add the --get flag: git config --get section.key
+
+# To remove a key use --unset flag: git config --unset section.key
