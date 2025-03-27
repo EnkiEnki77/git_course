@@ -16,3 +16,13 @@
 
 # git status will show you the current state of your repo, giving you the current status of each file
 
+
+# When a file is first added to the project it starts off untracked in your git repo, to stage it (mark it
+# inclusion in the next commit) run git add <filename> to stage individual files, or git add . to stage
+# all untracked files.
+# Without staging every file in the repo would be included in every commit.
+
+# To unstage a file run git rm --cached <file>
+
+# arguments with <> are required, arguments with [] are optional.
+
