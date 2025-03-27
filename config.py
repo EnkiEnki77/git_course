@@ -5,3 +5,5 @@
 
 # To view your config: git config --list --local | --global
 # Or view it directly: cat .git/config (local) ~/.gitconfig (global)
+
+# To get a single value from the config add the --get flag: git config --get section.key
