@@ -53,4 +53,13 @@
 # git config --get user.email
 
 
+# To set a default branch:
+# git config --global init.defaultBranch master
+
+# master is git's default branch, main is Github's
+
+
+# To check the above worked look at your ~/.gitconfig file which is your global config file using cat
+
+
 
