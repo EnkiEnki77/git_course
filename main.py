@@ -28,4 +28,20 @@
 
 
 
-# Git has two categories of commands
+# Git has two categories of commands; porcelain(high-level), and plumbing(low-level).
+# Porcelain commands will be used most often to interact with your code.
+
+# Commands such as these are porcelain:
+# git status
+# git add
+# git commit
+# git push
+# git pull
+# git log
+
+# Some plumbing commands are:
+# git apply
+# git commit-tree
+# git hash-object
+
+# You need to assign a name and email to your git config so the author of gits can be tracked
