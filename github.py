@@ -6,3 +6,7 @@
 
 # In github you can create remote repo's hosted on their servers, and then initialize a local repo on
 # your machine and connect it to the remote.
+
+
+# Run git ls-remote to ensure a remote is connected.
+
