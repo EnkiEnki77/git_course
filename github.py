@@ -28,7 +28,39 @@
 # To grab the actual file changes we use git pull.
 # git pull origin main
 
-# On Github a pull request is a way
+
+
+# On Github a pull request is a way to propose changes, typically to the rest of your team or the maintainer
+# of a project you're contributing to.
+
+# Pull requests allow team members to see what changes are being proposed and discuss them before they are
+# merged into the main code base.
+
+# Write changes on a branch other than main, then push the new branch to the github repo.
+# Go to the pull requests tab and create a new pull request
+# Set main as the base and the second branch as the compare branch so you can merge the second branch
+# into main later.
+
+
+
+# Configure git to rebase on pulls from github instead of merge, that way you can keep a linear commit
+# history:
+# git config --global pull.rebase true
+
+
+
+# Workflow when in a team:
+# 1. update local main branch whenever you start working with: git pull origin main
+# 2. checkout a new branch for changes you want to make with git switch -c <branch_name>
+# 3. make changes to files
+# 4. git add .
+# 5. git commit
+# 6. git push origin <branch_name>. dont push to main
+# 7. open a pull request on github to ask permission to merge your changes into main.
+# 8. ask a team member to review pull request
+# 9. once approved click merge on github to merge your branch into main
+# 10. delete feature branch, and repeat with a new branch for next set of changes.
+
 
 
 
