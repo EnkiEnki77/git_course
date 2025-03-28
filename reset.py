@@ -14,3 +14,10 @@
 # the working tree
 
 
+# Be really careful when using git reset --hard, you can end up permanently deleting your work. This will
+# remove changes from your git repo and set your project back to the previous commit. You wont be able
+# to recover those changes.
+
+# git reset --hard commit_hash will reset your working directory (project) and index to the state of the
+# commit youre resetting to. discarding all commit changes after.
+
