@@ -48,3 +48,42 @@
 # The --parents flag shows the hash of a commits parents
 
 
+
+# git log showcases your commit history.
+# --oneline gives you a condensed view of your history. The commit hashes are condensed to the first 7 chars
+# which is all thats necessary to refer to a commit. Also you get the commit message
+
+# --graph paints a bunch of lines to show how your history has diverged into branches and ome back together
+# through merges
+
+# --decorate gives branch and tag info. useful to see how far youve strayed from a branch, what branch
+# youre on or where a previous branch might be. The values are no, short, and full. Short being the default
+# no takes away the info, short just shows the branch name, full shows the path to the branch in the refs
+# directory.
+
+# --parents shows the hash of a commits parent. Especially useful for merge commits that have two parents.
+
+
+
+# Fast forward merges are the simplest kind of merges. They occur when a feature branch has all the commits
+# of the base branch (meaning no additional commits were added to main while working on the new branch)
+# In that situation git will simply move the base branch pointer to the tip of the feature branch to merge
+# This is called a fast-forward merge.
+# When a fast forward merge occurs no merge commit is created. The base branch simply moves its tip pointer
+# to the tip of the feature branch.
+
+
+# Common workflow for a team of devs:
+# 1. create a branch to work on a new feature or change
+# 2. make the change
+# 3. merge the branch back into main
+# 4. remove the branch
+# 5. repeat.
+
+# Once you merge a branch you dont need it anymore and should remove it.
+
+# You can do that with -d flag
+
+
+
+
