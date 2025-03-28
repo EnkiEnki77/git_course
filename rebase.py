@@ -32,3 +32,14 @@
 # A liner history is generally easier to read understand and work with
 
 
+# So essentially we can rebase a branch, which sets the base commit of the branch to being the tip of the
+# main branch, instead of whatever it was before. And now that the new branch has knowledge of the entire
+# main branch history we can avoid a merge commit and just conduct a fast-forward merge. This keeps our
+# history much more linear and easy to read. We then delete the branch after merging, since we don't need it
+
+# The one benefit of allowing merge commits over sticking to fast-forward merges is it keeps our true history
+# We can see where divergences in history occurred and when/where merges happened.
+
+
+
+
