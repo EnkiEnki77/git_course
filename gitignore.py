@@ -15,3 +15,10 @@
 # *.txt
 # !important.txt
 
+
+
+# What should you ignore?:
+# 1. things that can be generated, such as compiled code and minified files
+# 2. dependencies (node_modules, venv, packages)
+# 3. personal or specific to how you like to work, like editor settings
+# 4. sensitive or dangerous like .env

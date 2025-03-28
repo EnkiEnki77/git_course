@@ -67,6 +67,10 @@
 
 
 
+# To avoid having to make a directory and git init, set remote, etc. Just git clone your github repo
+
+
+
 
 
 
