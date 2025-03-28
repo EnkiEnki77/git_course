@@ -33,3 +33,8 @@
 # When you create a branch it uses the current commit you're on as the branch base, and the most
 # recent commit in the branch is the tip.
 
+
+# The old syntax for switching branches is git checkout. Switch is newer and more preferred though.
+
+
+
