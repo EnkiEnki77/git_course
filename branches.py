@@ -39,4 +39,13 @@
 # Git log shows which commit each branch tip points to
 
 
+# To make git log easier to read you can use the --decorate flag with short, full, or no as value
+
+# Full shows the full ref name of your commit. a ref is just a pointer to a commit, all branches are refs
+
+# Then theres git log --oneline, it makes the log much more compact.
+
+
+
+
 
