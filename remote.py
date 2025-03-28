@@ -15,3 +15,8 @@
 
 # The syntax for attaching a remote to your repo is:
 # git remote add <name> <uri>
+
+
+
+# Adding a remote to a repo doesnt mean we have access to the contents of the remote. We have to fetch
+# the contents.
