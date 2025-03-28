@@ -20,3 +20,16 @@
 # However, the default github branch is main, so you should change your default to main:
 # git branch -m oldname newname
 # Should also change it in the global config: init.defaultBranch
+
+
+# Commits on the main line before a branch is made are also a part of that branch
+
+
+# To create a branch: git branch new_branch
+
+# beterr to use switch so that you instantly switch to it though: git switch -c new_branch
+# the -c flag tells git to make a new branch if the one we're trying to switch to doesnt exist.
+
+# When you create a branch it uses the current commit you're on as the branch base, and the most
+# recent commit in the branch is the tip.
+
