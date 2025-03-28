@@ -47,5 +47,14 @@
 
 
 
+# Git stores all its info in files in the .git directory at the root of your project. Even info about branches
+# The heads or tips of branches are stored in .git/refs/heads directory. If you cat into one of those files
+# youll see the commit hash the branch points to.
+
+
+# To find the filepath of a certain file in a directory: find path/to/search -name file.txt
+
+
+
 
 
