@@ -42,4 +42,9 @@
 
 
 
+# You should never rebase a public branch onto anything else, if other users have the public branch
+# checked out itll cause issues for them.
+
+
+
 
