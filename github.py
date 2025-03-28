@@ -51,7 +51,7 @@
 
 # Workflow when in a team:
 # 1. update local main branch whenever you start working with: git pull origin main
-# 2. checkout a new branch for changes you want to make with git switch -c <branch_name>
+# 2. checkout a feature branch for changes you want to make with git switch -c <branch_name>
 # 3. make changes to files
 # 4. git add .
 # 5. git commit
@@ -60,6 +60,12 @@
 # 8. ask a team member to review pull request
 # 9. once approved click merge on github to merge your branch into main
 # 10. delete feature branch, and repeat with a new branch for next set of changes.
+
+
+# Locally after you approve a pull request and merge it you should delete the feature branch then in your
+# local repo switch back to main and pull from origin to sync with it
+
+
 
 
 
