@@ -36,5 +36,7 @@
 
 # The old syntax for switching branches is git checkout. Switch is newer and more preferred though.
 
+# Git log shows which commit each branch tip points to
+
 
 
