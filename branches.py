@@ -13,3 +13,10 @@
 # Because a branch is just a pointer to a commit they're cheap to create.
 
 # To check what branch you're on: git branch
+
+
+# The default branch for git is master
+
+# However, the default github branch is main, so you should change your default to main:
+# git branch -m oldname newname
+# Should also change it in the global config: init.defaultBranch
