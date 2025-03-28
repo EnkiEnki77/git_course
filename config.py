@@ -15,3 +15,7 @@
 # git doesnt care though
 
 # To unset all of a given key: git config --unset-all section.key
+
+
+# Don't add sections to your git config that git doesnt use. To remove a section use:
+# git config --remove-section section
