@@ -25,3 +25,10 @@
 #    you can now conduct a fast-forward merge/commit on main.
 
 
+
+# A benefit of merge is it preserves the true history of the project, it shows when branches were merged and
+# where. Though it can make a lot of merge commits making the history hard to read and understand.
+
+# A liner history is generally easier to read understand and work with
+
+
