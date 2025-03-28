@@ -19,3 +19,20 @@
 
 # Don't add sections to your git config that git doesnt use. To remove a section use:
 # git config --remove-section section
+
+
+
+# There are four places git can be configured, from more general to more specific they are:
+# 1. system (/etc/gitconfig): allows git config for whole systeme
+# 2. global (~/.gitconfig): allows git config for all the projects of a single user
+# 3. local (.git/config): allows git config for a specific repo of a single user
+# 4. worktree (.git/config.worktree): allows git config for a part of a specific repo of a single user
+
+
+# 90% of the time youll use global to set things like name and user name, other 9% youll use local
+# to set project-specific config. The last 1% you might need to mess with system and worktree
+
+# Configurations set in more specific locations override more general locations. For example setting name
+# in local will override global.
+
+
