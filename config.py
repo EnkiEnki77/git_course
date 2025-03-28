@@ -9,3 +9,9 @@
 # To get a single value from the config add the --get flag: git config --get section.key
 
 # To remove a key use --unset flag: git config --unset section.key
+
+
+# Typically in a key/value store like a python dictionary you arent allowed to have duplicate kyes
+# git doesnt care though
+
+# To unset all of a given key: git config --unset-all section.key
