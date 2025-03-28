@@ -26,3 +26,14 @@
 # just because we fetched all the metadata of the remote doesnt mean we have all the files. To showcase
 # run git log and youll see you have none of the remotes commits.
 
+
+# You can log a remotes commits: git log remote/branch
+
+
+# Just like you can merge branches in a local repo, you can merge local branches to remote ones.
+
+
+# That's how you grab the files of a remote repo, merge remote/main into your main.
+
+
+
