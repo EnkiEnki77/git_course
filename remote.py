@@ -33,7 +33,7 @@
 # Just like you can merge branches in a local repo, you can merge local branches to remote ones.
 
 
-# That's how you grab the files of a remote repo, merge remote/main into your main.
+# That's one way how you grab the files of a remote repo, merge remote/main into your main.
 
 
 

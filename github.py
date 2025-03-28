@@ -10,3 +10,25 @@
 
 # Run git ls-remote to ensure a remote is connected.
 
+
+
+# Git push sends any local changes in the current branch of our local repo to the connected remote repo
+# branch of the same name.
+# You need to be authenticated with the remote to push changes to it.
+
+# git push origin main
+
+# you can also push to a branch on the remote of a different name:
+# git push origin <local_branch>:<remote_branch>
+
+# You can also delete a remote branch by pushing an empty branch to it:
+# git push origin :<remote_branch>
+
+# Fetching allows you to grab the remote git repos metadata (all the stuff in the .git/objects directory)
+# To grab the actual file changes we use git pull.
+# git pull origin main
+
+# On Github a pull request is a way
+
+
+
