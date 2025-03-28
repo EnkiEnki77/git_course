@@ -20,3 +20,9 @@
 
 # Adding a remote to a repo doesnt mean we have access to the contents of the remote. We have to fetch
 # the contents.
+
+
+# git fetch downloads all the content of the remotes .git/objects directory into the one in your local repo
+# just because we fetched all the metadata of the remote doesnt mean we have all the files. To showcase
+# run git log and youll see you have none of the remotes commits.
+
