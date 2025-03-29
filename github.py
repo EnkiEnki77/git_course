@@ -68,6 +68,21 @@
 
 
 # To avoid having to make a directory and git init, set remote, etc. Just git clone your github repo
+# If you make a github repo first and clone it down the remote connection is made automatically for you.
+
+
+# A README is a markdown documentation file that explains what your project is and how to run it.
+
+
+# You can view your diff with the git diff command, a diff is a visual aid that shows you the difference
+# between two files.
+
+
+
+# Commits are supposed to be a snapshot of your code at a single point in time, they should represent a
+# single logical change to your code. Things like the addition of a new feature, fixing a bug, refactoring
+# some of your code for readability.
+
 
 
 

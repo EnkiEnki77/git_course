@@ -82,7 +82,7 @@
 
 # Once you merge a branch you dont need it anymore and should remove it.
 
-# You can do that with -d flag
+# You can do that with -d flagch
 
 
 
